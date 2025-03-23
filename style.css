@@ -10,3 +10,44 @@
 body {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+
+#page {
+    display: flex;
+    gap: 3rem;
+    background-color: #f0f0f0;
+}
+
+#pizzaSlice {
+    width: 40%;
+    height: 100vh;
+}
+
+#bodySectionOne {
+    padding-top: 10rem;
+}
+
+.mainText {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#sectionOneP {
+    margin-bottom: 2rem;
+}
+
+#sectionOneClose {
+    padding-bottom: 3.5rem;
+}
+
+#sectionTwoHeader {
+    padding-bottom: 1rem;
+}
+
+.formRow {
+    display: flex;
+    gap: 4rem;
+}
+
+label {
+    font-size: .75rem;
+}

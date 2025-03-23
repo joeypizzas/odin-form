@@ -7,6 +7,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="page">
+        <img src="images/pizza-form.jpg" alt="delicious pepperoni pizza slice" id="pizzaSlice">
+        <div>
+            <div id="bodySectionOne">
+                <div class="mainText" id="sectionOneP">This is not a real online service! You know you need pizza like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</div>
+                <div class="mainText" id="sectionOneClose">You <i>know</i> you want to.</div>
+            </div>
+            <div>
+                <div class="mainText" id="sectionTwoHeader">Let's do this!</div>
+                <form action="/submit" method="post">
+                    <div class="formRow">
+                        <div>
+                            <label for="firstName">First name</label>
+                            <input type="text" id="firstName" name="firstName">
+                        </div>
+                        <div>
+                            <label for="lastName">Last name</label>
+                            <input type="text" id="lastName" name="lastName">
+                        </div>
+                    </div>
+                    <div class="formRow">
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div>
+                            <label for="phoneNumber">Phone number</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber">
+                        </div>
+                    </div>
+                    <div class="formRow">
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div>
+                            <label for="confirmPassword">Confirm password</label>
+                            <input type="password" id="confirmPassword" name="confirmPassword">
+                        </div>
+                    </div>
+                </form>
+            </div>  
+        </div>
+    </div>
 </body>
 </html>
