@@ -1,5 +1,11 @@
 /* Style for Odin form project */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: "logoFont";
     src: url('fonts/Norse-Bold.otf') format('opentype');
@@ -13,8 +19,6 @@ body {
 
 #page {
     display: flex;
-    gap: 3rem;
-    background-color: #f0f0f0;
 }
 
 #pizzaSlice {
@@ -24,6 +28,9 @@ body {
 
 #bodySectionOne {
     padding-top: 10rem;
+    padding-right: 25vh;
+    padding-left: 3rem;
+    background-color: #f0f0f0;
 }
 
 .mainText {
@@ -39,15 +46,40 @@ body {
     padding-bottom: 3.5rem;
 }
 
+#bodySectionTwo {
+    padding-left: 3rem;
+}
+
 #sectionTwoHeader {
+    padding-top: 1rem;
     padding-bottom: 1rem;
+    color: #333333;
 }
 
 .formRow {
     display: flex;
-    gap: 4rem;
+    gap: 8vh;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70vh;
 }
 
 label {
     font-size: .75rem;
+    font-weight: 500;
+    color: #333333;
+}
+
+input {
+    font-size: 1rem;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: .3rem;
+}
+
+#bottomFormRow {
+    padding-bottom: 2rem;
 }
