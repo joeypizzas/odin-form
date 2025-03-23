@@ -1,5 +1,13 @@
 /* Style for Odin form project */
 
+/* TODO
+
+- Fix scrolling at the bottom
+- Add box shadow at top of section 3
+- Add field syling and validation 
+- Place logo and name on image */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +38,7 @@ body {
     padding-top: 10rem;
     padding-right: 25vh;
     padding-left: 3rem;
-    background-color: #f0f0f0;
+    background-color: #f5f5f5;
 }
 
 .mainText {
@@ -82,4 +90,35 @@ input {
 
 #bottomFormRow {
     padding-bottom: 2rem;
+}
+
+#bodySectionThree {
+    background-color: #f5f5f5;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-bottom: 100%;
+}
+
+button {
+    margin-bottom: 2rem;
+    padding: .75rem 2.5rem;
+    background-color: #596D48;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+button:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#closer {
+    color: #333333
+}
+
+a {
+    color: #596D48;
+    font-weight: 700;
+    text-decoration: none;
 }
