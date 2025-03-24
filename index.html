@@ -9,7 +9,7 @@
 <body>
     <div id="page">
         <img src="images/pizza-form.jpg" alt="delicious pepperoni pizza slice" id="pizzaSlice">
-        <div>
+        <div id="bodyContent">
             <div id="bodySectionOne">
                 <div class="mainText" id="sectionOneP">This is not a real online service! You know you need pizza like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</div>
                 <div class="mainText" id="sectionOneClose">You <i>know</i> you want to.</div>
@@ -20,31 +20,31 @@
                     <div class="formRow">
                         <div>
                             <label for="firstName">First name</label>
-                            <input type="text" id="firstName" name="firstName">
+                            <input type="text" id="firstName" name="firstName" minlength="1" maxlength="22" placeholder="Joey" required>
                         </div>
                         <div>
                             <label for="lastName">Last name</label>
-                            <input type="text" id="lastName" name="lastName">
+                            <input type="text" id="lastName" name="lastName" minlength="1" maxlength="22" placeholder="Pizzas" required>
                         </div>
                     </div>
                     <div class="formRow">
                         <div>
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="email" name="email" minlength="1" maxlength="100" placeholder="joey@pizzas.com" required>
                         </div>
                         <div>
                             <label for="phoneNumber">Phone number</label>
-                            <input type="tel" id="phoneNumber" name="phoneNumber">
+                            <input type="tel" id="phoneNumber" placeholder="1234567890" name="phoneNumber" minlength="10" maxlength="15" pattern="\d{10,15}" required>
                         </div>
                     </div>
                     <div class="formRow" id="bottomFormRow">
                         <div>
                             <label for="password">Password</label>
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password" minlength="8" maxlength="32" placeholder="supersecure" required>
                         </div>
                         <div>
                             <label for="confirmPassword">Confirm password</label>
-                            <input type="password" id="confirmPassword" name="confirmPassword">
+                            <input type="password" id="confirmPassword" name="confirmPassword" minlength="8" maxlength="32" placeholder="supersecure" required>
                         </div>
                     </div>
                 </form>
