@@ -2,7 +2,6 @@
 
 /* TODO
 
-- Add field validation and pseudo classes
 - Place logo and name on image */
 
 
@@ -84,12 +83,25 @@ label {
 }
 
 input {
-    font-size: 1rem;
+    font-size: .9rem;
     border-color: #E5E7EB;
     border-style: solid;
     border-radius: 3px;
     border-width: 1px;
     padding: .3rem;
+}
+
+input:focus {
+    border-color: #66afe9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+input:user-valid {
+    border-color: #4CAF50;
+}
+
+input:user-invalid {
+    border-color: red;
 }
 
 #bottomFormRow {

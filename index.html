@@ -20,31 +20,31 @@
                     <div class="formRow">
                         <div>
                             <label for="firstName">First name</label>
-                            <input type="text" id="firstName" name="firstName" minlength="1" maxlength="22" placeholder="Joey" required>
+                            <input type="text" id="firstName" name="firstName" maxlength="22" pattern="[A-Za-z]+" placeholder="Joey" required title="First name must be 1-22 characters.">
                         </div>
                         <div>
                             <label for="lastName">Last name</label>
-                            <input type="text" id="lastName" name="lastName" minlength="1" maxlength="22" placeholder="Pizzas" required>
+                            <input type="text" id="lastName" name="lastName" maxlength="22" pattern="[A-Za-z]+" placeholder="Pizzas" required title="Last name must be 1-22 characters.">
                         </div>
                     </div>
                     <div class="formRow">
                         <div>
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" minlength="1" maxlength="100" placeholder="joey@pizzas.com" required>
+                            <input type="email" id="email" name="email" minlength="1" maxlength="100" placeholder="joey@pizzas.com" required title="Please enter a valid email.">
                         </div>
                         <div>
                             <label for="phoneNumber">Phone number</label>
-                            <input type="tel" id="phoneNumber" placeholder="1234567890" name="phoneNumber" minlength="10" maxlength="15" pattern="\d{10,15}" required>
+                            <input type="tel" id="phoneNumber" placeholder="1234567890" name="phoneNumber" minlength="10" maxlength="15" pattern="\d{10,15}" required title="Please enter a valid phone number.">
                         </div>
                     </div>
                     <div class="formRow" id="bottomFormRow">
                         <div>
                             <label for="password">Password</label>
-                            <input type="password" id="password" name="password" minlength="8" maxlength="32" placeholder="supersecure" required>
+                            <input type="password" id="password" name="password" minlength="8" maxlength="32" placeholder="supersecure" required title="Password must be 8-32 characters.">
                         </div>
                         <div>
                             <label for="confirmPassword">Confirm password</label>
-                            <input type="password" id="confirmPassword" name="confirmPassword" minlength="8" maxlength="32" placeholder="supersecure" required>
+                            <input type="password" id="confirmPassword" name="confirmPassword" minlength="8" maxlength="32" placeholder="supersecure" required title="Password must be 8-32 characters.">
                         </div>
                     </div>
                 </form>
