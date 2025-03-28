@@ -24,23 +24,18 @@ body {
 
 #page {
     display: flex;
+    height: 100vh;
 }
 
 #pizzaSlice {
     width: 40%;
-    height: 100%;
-    max-height: 900px;
-}
-
-#bodyContent {
-    height: 100%;
-    max-height: 900px;
+    
 }
 
 #bodySectionOne {
-    padding-top: 10rem;
+    padding-top: 15vh;
     padding-right: 25vh;
-    padding-left: 3rem;
+    padding-left: 5vh;
     background-color: #f5f5f5;
 }
 
@@ -50,27 +45,27 @@ body {
 }
 
 #sectionOneP {
-    margin-bottom: 2rem;
+    margin-bottom: 3vh;
 }
 
 #sectionOneClose {
-    padding-bottom: 3.5rem;
+    padding-bottom: 6vh;
 }
 
 #bodySectionTwo {
-    padding-left: 3rem;
+    padding-left: 5vh;
 }
 
 #sectionTwoHeader {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     color: #333333;
 }
 
 .formRow {
     display: flex;
     gap: 8vh;
-    padding-bottom: 1rem;
+    padding-bottom: 2vh;
     display: flex;
     justify-content: space-between;
     padding-right: 70vh;
@@ -88,7 +83,7 @@ input {
     border-style: solid;
     border-radius: 3px;
     border-width: 1px;
-    padding: .3rem;
+    padding: .6vh;
 }
 
 input:focus {
@@ -105,19 +100,19 @@ input:user-invalid {
 }
 
 #bottomFormRow {
-    padding-bottom: 2rem;
+    padding-bottom: 4vh;
 }
 
 #bodySectionThree {
     background-color: #f5f5f5;
-    padding-top: 2rem;
-    padding-left: 3rem;
+    padding-top: 4vh;
+    padding-left: 5vh;
     padding-bottom: 16%;
 }
 
 button {
-    margin-bottom: 2rem;
-    padding: .75rem 2.5rem;
+    margin-bottom: 3.5vh;
+    padding: 1.5vh 5vh;
     background-color: #596D48;
     color: white;
     font-size: 1rem;
